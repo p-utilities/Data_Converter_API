@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<root>
+	<items>
+		<item>
+			<property propertyName="id">
+				<value>2608.608.225-000</value>
+			</property>
+			<property propertyName="name">
+				<value>Hair drier</value>
+			</property>
+			<property propertyName="description">
+				<value>2000w hair drier Roventa</value>
+			</property>
+			<property propertyName="weight">
+				<value>0.526kg</value>
+			</property>
+			<property propertyName="origin">
+				<value>Germany</value>
+			</property>
+		</item>
+		<item>
+			<property propertyName="id">
+				<value>0601.228.1E4-000</value>
+			</property>
+			<property propertyName="name">
+				<value>Mechanical keyboard</value>
+			</property>
+			<property propertyName="description">
+				<value>450W 127V</value>
+			</property>
+			<property propertyName="weight">
+				<value>2.25kg</value>
+			</property>
+			<property propertyName="origin">
+				<value>Serbia</value>
+			</property>
+		</item>
+		<item>
+			<property propertyName="id">
+				<value>0600.23D.5E0-000</value>
+			</property>
+			<property propertyName="name">
+				<value>Leter walet</value>
+			</property>
+			<property propertyName="description">
+				<value>Gross weight 0.205kg</value>
+			</property>
+			<property propertyName="weight">
+				<value>2.205kg</value>
+			</property>
+			<property propertyName="origin">
+				<value>Serbia</value>
+			</property>
+		</item>
+		<item>
+			<property propertyName="id">
+				<value>0601.548.6E0-000</value>
+			</property>
+			<property propertyName="name">
+				<value>Marble julary</value>
+			</property>
+			<property propertyName="description">
+				<value>Marble stones vary much</value>
+			</property>
+			<property propertyName="weight">
+				<value>3.5kg</value>
+			</property>
+			<property propertyName="origin">
+				<value>Spain</value>
+			</property>
+		</item>
+		<item>
+			<property propertyName="id">
+				<value>0601.283.1G1-000</value>
+			</property>
+			<property propertyName="name">
+				<value>Jig Saw</value>
+			</property>
+			<property propertyName="description">
+				<value>Packaging weight 2kg</value>
+			</property>
+			<property propertyName="weight">
+				<value>2kg</value>
+			</property>
+			<property propertyName="origin">
+				<value>Serbia</value>
+			</property>
+		</item>
+		<item>
+			<property propertyName="id">
+				<value>0601.6B2.0D0-000</value>
+			</property>
+			<property propertyName="name">
+				<value>Samsung A5</value>
+			</property>
+			<property propertyName="description">
+				<value>Powerful motor for maximum productivity in vibrations.</value>
+			</property>
+			<property propertyName="weight">
+				<value>4.3kg</value>
+			</property>
+			<property propertyName="origin">
+				<value>Germany</value>
+			</property>
+		</item>
+		<item>
+			<property propertyName="id">
+				<value>0601.867.0E0-000</value>
+			</property>
+			<property propertyName="name">
+				<value>Plastic table</value>
+			</property>
+			<property propertyName="description">
+				<value>The only plastic table in the world.</value>
+			</property>
+			<property propertyName="weight">
+				<value>3.8kg</value>
+			</property>
+			<property propertyName="origin">
+				<value>Hungary</value>
+			</property>
+		</item>
+		<item>
+			<property propertyName="id">
+				<value>0601.9F4.0E2-000</value>
+			</property>
+			<property propertyName="name">
+				<value>Screw driver</value>
+			</property>
+			<property propertyName="description">
+				<value>Weight 1.6kg</value>
+			</property>
+			<property propertyName="weight">
+				<value>1.6</value>
+			</property>
+			<property propertyName="origin">
+				<value>Hungary</value>
+			</property>
+		</item>
+		<item>
+			<property propertyName="id">
+				<value>0611.228.612-000</value>
+			</property>
+			<property propertyName="name">
+				<value>G-Shock watch</value>
+			</property>
+			<property propertyName="description">
+				<value>Unbeatable removal capacity.</value>
+			</property>
+			<property propertyName="weight">
+				<value>5kg</value>
+			</property>
+			<property propertyName="origin">
+				<value>India</value>
+			</property>
+		</item>
+		<item>
+			<property propertyName="id">
+				<value>3609.201.055-000</value>
+			</property>
+			<property propertyName="name">
+				<value>Assus laptop</value>
+			</property>
+			<property propertyName="description">
+				<value>Longest lifetime in class with power that impresses</value>
+			</property>
+			<property propertyName="weight">
+				<value>4.8kg</value>
+			</property>
+			<property propertyName="origin">
+				<value>India</value>
+			</property>
+		</item>
+	</items>
+	<categories>
+		<category>
+			<property propertyName="id">
+				<value>HELLO_1</value>
+			</property>
+			<property propertyName="name">
+				<value>Bosch professional</value>
+			</property>
+			<property propertyName="products">
+				<productLinks>
+					<productLink id="2608.608.225-000"/>
+				</productLinks>
+			</property>
+		</category>
+		<category>
+			<property propertyName="id">
+				<value>HELLO_2</value>
+			</property>
+			<property propertyName="name">
+				<value>Home and garden</value>
+			</property>
+			<property propertyName="products">
+				<productLinks>
+					<productLink id="0601.228.1E4-000"/>
+					<productLink id="0601.23D.5E0-000"/>
+					<productLink id="0601.548.6E0-000"/>
+				</productLinks>
+			</property>
+		</category>
+		<category>
+			<property propertyName="id">
+				<value>HELLO_3</value>
+			</property>
+			<property propertyName="name">
+				<value>Accessories</value>
+			</property>
+			<property propertyName="products">
+				<productLinks>
+					<productLink id="0601.283.1G1-000"/>
+					<productLink id="0601.6B2.0D0-000"/>
+				</productLinks>
+			</property>
+		</category>
+		<category>
+			<property propertyName="id">
+				<value>HELLO_4</value>
+			</property>
+			<property propertyName="name">
+				<value>Laptops</value>
+			</property>
+			<property propertyName="products">
+				<productLinks>
+					<productLink id="0601.867.0E0-000"/>
+				</productLinks>
+			</property>
+		</category>
+		<category>
+			<property propertyName="id">
+				<value>HELLO_5</value>
+			</property>
+			<property propertyName="name">
+				<value>Skill</value>
+			</property>
+			<property propertyName="products">
+				<productLinks>
+					<productLink id="0610.9F4.0E2-000"/>
+				</productLinks>
+			</property>
+		</category>
+		<category>
+			<property propertyName="id">
+				<value>HELLO_6</value>
+			</property>
+			<property propertyName="name">
+				<value>DIY</value>
+			</property>
+			<property propertyName="products">
+				<productLinks>
+					<productLink id="0611.228.612-000"/>
+					<productLink id="3609.201.055-000"/>
+				</productLinks>
+			</property>
+		</category>
+	</categories>
+</root>

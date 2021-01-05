@@ -1,0 +1,23 @@
+##products
+
+INSERT_UPDATE Product;id;name;description;
+;2608.608.225-000;Hair drier; Gross weight 0.026kg;
+;0601.228.1E4-000;Assus laptop; 450W 127V;
+;0601.23D.5E0-000;HP laptop; Gross weight 2.205kg;
+;0601.548.6E0-000;Mac book;Marble Saw GDC 13-34;
+;0601.283.1G1-000;Assus screen;Packaging weight 2kg;
+;0601.6B2.0D0-000;Samsung A5;Powerful motor for maximum productivity in drilling and chiselling applications.;
+;0601.867.0E0-000;CORDLESS IMPACT DRILL GSB 14,4V-LI; The only corded driver/drill with torque control (24+1) and overload clutch.;
+;0601.9F4.0E2-000;xBox;Weight 1.6kg;
+;0611.228.612-000;PlayStation;Unbeatable removal capacity.;
+;3609.201.055-000;Plastic table;Longest lifetime in class with power that impresses;
+
+##categories
+
+INSERT_UPDATE Category;id;name;products;
+;HELLO_1;Professional;2608.608.225-000;
+;HELLO_2;Home and garden;0601.228.1E4-000,0601.23D.5E0-000,0601.548.6E0-000;
+;HELLO_3;Accessories;0601.283.1G1-000,0601.6B2.0D0-000;
+;HELLO_4;Laptops;0601.867.0E0-000;
+;HELLO_5;Skill;0601.9F4.0E2-000;
+;HELLO_6;DIY;0611.228.612-000,3609.201.055-000;
