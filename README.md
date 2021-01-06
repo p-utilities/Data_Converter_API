@@ -18,7 +18,7 @@ To use this API for other purposes, please check little [documentation](#documen
   
 ## Quick overview of API <a name="overview"></a>
 
-**Notice** This repository contains all nessesery dependencies for running.
+**Notice :** This repository contains all nessesery dependencies for running.
 
 Imagine there is XML files that contains data, but your requirenments are to convert that data into CSV file. Converting on its own is very simple, but what if there is some validation whitch you have to take before you write it into new file. To solve that isue, I came up with idea to first pull data from file, XML or CSV, put that data into individual objects, validate that objects and then write that validated data into new file.
 
