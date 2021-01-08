@@ -30,7 +30,20 @@ Below will be presented UML Class diagram so that you can understend better what
 ![Class diagram](/Application_1_class_diagram.jpg)
 
 ## Instructions for running this project <a name="instructions"></a>
+
+This project includes two ways of running application. First is through Swing desktop app. Second way is through simple socket application.
+
 ### Using desktop app to convert <a name="desktop"></a>
+
+To use swing demo application, clone this repository using next commands in your command line:
+
+```bash
+$ git clone 
+```
+After cloning, enter next command in your command line: 
+```bash
+ $ javac 
+```
 ### Using client-server to convert <a name="client-server"></a>
 
 
