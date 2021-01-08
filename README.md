@@ -10,11 +10,6 @@ To use this API for other purposes, please check little [documentation](#documen
 - [Instructions for running this project](#instructions)
   - [Using desktop app to convert](#desktop)
   - [Using client-server to convert](#client-server)
-- [Documentation](#documentation)
-  - [Adding new DTOs (Data Transfer Object)](#adding-dtos)
-  - [Adding new validators](#adding-validators)
-  - [Creating converter](#converter)
-- [What to expect next](#next)
   
 ## Quick overview of API <a name="overview"></a>
 
@@ -64,12 +59,4 @@ To start the client part, open terminal or command line and enter next comand:
 $ java -jar client_app.jar localhost 1234 /input/dir/path/input_file.xml
 ```
 
-/input/dir/path is directory path where application can find XML and/or CSV files. If you do not have any, you can use provided files. Provided input XML and CSV files can be found in [sample/input](https://github.com/kakarot94/Data_Converter_API/tree/main/sample/input).
-
-## Documentation <a name="documentation"></a>
-### Adding new DTOs (Data Transfer Objects) <a name="adding-dtos"></a>
-### Adding new validators <a name="adding-validators"></a>
-### Creating converter <a name="converter"></a>
-## What to expect next <a name="next"></a>
-
-  
+/input/dir/path is directory path where application can find XML and/or CSV files. If you do not have any, you can use provided files. Provided input XML and CSV files can be found in [sample/input](https://github.com/kakarot94/Data_Converter_API/tree/main/sample/input). 
