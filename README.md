@@ -31,21 +31,40 @@ Below will be presented UML Class diagram so that you can understend better what
 
 ## Instructions for running this project <a name="instructions"></a>
 
-This project includes two ways of running application. First is through Swing desktop app. Second way is through simple socket application.
+This project includes two applications. First is Swing desktop application and the second is simple socket application. Both applications should be run using executable jars provided in the folder [runningJars](https://github.com/kakarot94/Data_Converter_API/tree/main/runningJars).
 
 ### Using desktop app to convert <a name="desktop"></a>
 
-To use swing demo application, clone this repository using next commands in your command line:
+To use swing demo application, you can clone this repository or you can download exe jar. To download exe jar, click on 'View raw' on this [page](https://github.com/kakarot94/Data_Converter_API/blob/main/runningJars/desktopApp/application_1.jar) and save the file and follow commands below. <br>
 
+To use executable JAR affter cloning repository, find desktop exe jar inside folder runningJars/desktopApp.<br>
+
+To start the application, open terminal or command line and enter next comand:
 ```bash
-$ git clone 
+$ java -jar application_1.jar /input/dir/path/ /output/dir/path/
 ```
-After cloning, enter next command in your command line: 
-```bash
- $ javac 
-```
+/input/dir/path is directory path where application can find XML and/or CSV files. If you do not have any, you can use provided files. Provided input XML and CSV files can be found in [sample/input](https://github.com/kakarot94/Data_Converter_API/tree/main/sample/input).
+
 ### Using client-server to convert <a name="client-server"></a>
 
+To use client-server demo application, you can clone this repository or you can download exe jar. To download exe jar, click on 'View raw' on this [page](https://github.com/kakarot94/Data_Converter_API/blob/main/runningJars/desktopApp/application_1.jar) and save the file and follow commands below. <br>
+
+To use executable JAR affter cloning repository, find desktop exe jar inside folder runningJars/desktopApp.<br>
+
+**Important : ** server part needs to be run before client part!
+
+To start the server part, open terminal or command line and enter next comand:
+```bash
+$ java -jar server_app.jar 1234 /output/dir/path/output_file_name.xml
+```
+When starting server part, you need to specify the name and the type of the file to create. After that, server is up and running. As soon as you run client part corectly, conversion will begin.
+
+To start the client part, open terminal or command line and enter next comand:
+```bash
+$ java -jar client_app.jar localhost 1234 /input/dir/path/input_file.xml
+```
+
+/input/dir/path is directory path where application can find XML and/or CSV files. If you do not have any, you can use provided files. Provided input XML and CSV files can be found in [sample/input](https://github.com/kakarot94/Data_Converter_API/tree/main/sample/input).
 
 ## Documentation <a name="documentation"></a>
 ### Adding new DTOs (Data Transfer Objects) <a name="adding-dtos"></a>
